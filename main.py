@@ -37,7 +37,10 @@ while True:
         task_list[int(position)-1] = new_task
 
     elif op.upper() == "E":
-        print("Excluir")
+        show_tasks()
+        position = input("Digite o número da tarefa a ser excluida: ")
+        del task_list[int(position)-1]
+
     else:
         print("Opção inválida!")
 
