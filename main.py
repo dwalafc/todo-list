@@ -32,5 +32,4 @@ while True:
     else:
         print("Opção inválida!")
 
-print("==============")
-print("Saindo...")
+utils.exit()

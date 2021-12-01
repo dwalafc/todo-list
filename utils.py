@@ -15,3 +15,8 @@ def show_tasks(task_list_param):
         for task in task_list_param:
             print("%d - %s" % (counter, task))
             counter += 1
+
+
+def exit():
+    print("==============")
+    print("Saindo...")
